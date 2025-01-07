@@ -93,3 +93,22 @@ img {
     height: 400px; /* モバイル表示時は少し小さく */
   }
 }
+
+@media only screen and (max-width:980px) {
+    body {
+    background-image: url("背景.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+         }
+    }
+    
+    @media only screen and (min-width:981px) {
+    body {
+    background-image: url("背景.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+         }
+    }
+    
