@@ -10,6 +10,8 @@ body {
 h1{
     color: #ffffff;
     background-color: #0000cd ;
+    text-align: center;
+    margin: 2rem auto;
 }
 .container {
   max-width: 768px; /* コンテンツの最大幅を768pxに制限 */
