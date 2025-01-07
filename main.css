@@ -3,9 +3,14 @@ body {
   justify-content: center; /* コンテンツを中央に配置 */
   padding: 0px 10px; /* 画面の上下に 0px の余白、左右に10pxの余白を設定 */
   background-image: url("背景.jpg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+h1{
+    color: #ffffff;
+    background-color: #0000cd ;
+}
 .container {
   max-width: 768px; /* コンテンツの最大幅を768pxに制限 */
   width: 100%; /* コンテンツが幅いっぱいに広がるように設定 */
